@@ -4,7 +4,7 @@ import plotly.express as px
 import os
 
 # Carregar os dados e adicionar coluna 'Empresa'
-path = r"C:\Users\pedro\.cache\kagglehub\datasets\azharsaleem\us-stock-market-giants-top-companies-stocks-data\versions\1\US_Stocks"
+path = "US_Stocks"
 arquivos_csv = [f for f in os.listdir(path) if f.endswith('.csv')]
 dfs = []
 for arquivo in arquivos_csv:
